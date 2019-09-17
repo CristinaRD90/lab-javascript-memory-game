@@ -3,7 +3,7 @@
 
 describe('MemoryGame constructor', function () {
   beforeEach(function () {
-    memoryGame = new MemoryGame([]);
+    let memoryGame = new MemoryGame([]);
   });
 
   it('Create MemoryGame object', function () {
@@ -59,7 +59,7 @@ describe('shuffleCards method', function () {
       { name: 'green lantern',   img: 'green-lantern.jpg' },
       { name: 'ironman',         img: 'ironman.jpg' },
     ]
-    memoryGame = new MemoryGame(cardsArray);
+    let memoryGame = new MemoryGame(cardsArray);
   });
 
   it('Should be declare', function () {
